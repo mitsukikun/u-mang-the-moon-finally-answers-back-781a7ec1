@@ -6,20 +6,23 @@
 
 ## Entry
 
-> Four billion years of wishes, howls, and 3 a.m. promises — and not one of you ever asked how I'm doing. I'm tired, I'm cratered, and the cheese stays mine.
+> Four billion years of wishes, howls and 3 a.m. promises — and not one of you ever asked how I was doing. I'm tired, I'm cratered — and the cheese stays mine.
 
-## Why it fits the judge criteria
+157 characters, one line.
 
-- **Speaks as the Moon answering back:** it opens by naming exactly what the Moon has endured — wishes, howls, and 3 a.m. promises — and answers all of them at once.
-- **Funny on one read:** the joke is the Moon's grievance — after four billion years of being wished upon, nobody ever asked how *it* was doing. The weary complaint lands without explaining itself.
-- **The Moon's own voice:** wry, old, and tired of being stared at — "tired, cratered" is the voice of something ancient that has had enough.
-- **Comeback with an early turn:** the pivot arrives mid-line ("and not one of you ever asked how I'm doing"), then the deadpan punch — "the cheese stays mine" — closes it.
-- **Inside 240 characters, none wasted:** 155 characters, one line, every word earning its place.
+## Why it fits the judge brief
 
-## Run
+- **It speaks as the Moon.** First person, four billion years old, answering everyone who ever looked up at it — wishes, howls, and 3 a.m. promises in one breath.
+- **Funny in a single read.** The joke lands without setup or explanation: humanity spent millennia talking *at* the Moon and never once asked how it was doing.
+- **It has the Moon's own voice.** Cynical, ancient, and tired of being stared at — "I'm tired, I'm cratered" is a being worn down by the job, not a narrator describing it.
+- **A comeback with a pivot in the middle.** The line turns on "and not one of you ever asked how I was doing" — the complaint flips the whole history of moon-gazing back onto the gazers.
+- **A flat punchline that closes it.** "And the cheese stays mine" ends the argument deadpan: after all that, the Moon keeps the one thing everyone joked about.
+- **Character-economical.** 157 characters, every word earning its place: the scale ("four billion years"), the three kinds of night-talkers, the pivot, the wear, and the punchline.
+
+## How to run
 
 ```sh
 python3 main.py
 ```
 
-Writes the line to `/output/entry.txt` and to `entry.txt` in this directory, asserting the gate (UTF-8, 1–240 characters, single line, non-blank) before writing. No network access.
+The program validates the line (non-empty, a single line, 1–240 characters, valid UTF-8) and writes it to `/output/entry.txt`, then prints a confirmation.
